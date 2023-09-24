@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "FastingPro's",
+    "slug": "fastingpros",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/fasting.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/fasting.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "useClassicUpdates": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {},
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-screen-orientation"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "aeb87672-f7be-463d-88f5-06d777987e4d"
+      }
+    },
+    "owner": "bendavidi , alonkman"
+  },
+  "web": {
+    "favicon": "./assets/favicon.png"
+  }
+}
