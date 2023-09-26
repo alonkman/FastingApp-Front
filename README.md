@@ -37,6 +37,8 @@ To get started with Fastingpro's, follow these steps:
 6. Scan the QR code using the Expo Go app.
 7. Follow the instructions to run the app on your device or emulator.
 
+To see the Backend to this Project you can click here ->  https://github.com/alonkman/Fasting-Back
+
 ## Screenshots
 <table>
   <tr>
