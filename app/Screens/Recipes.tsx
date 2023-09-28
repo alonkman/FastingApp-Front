@@ -17,7 +17,7 @@ interface Recipe {
 const Recipes = () => {
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
-    const [filterProteins, setFilterProteins] = useState<string[]>([]); // Array to store selected proteins
+    const [filterProteins, setFilterProteins] = useState<string[]>([]); 
     const [filterVegetarian, setFilterVegetarian] = useState<boolean>(false);
     const [modalVisible, setModalVisible] = useState<boolean>(false);
 
