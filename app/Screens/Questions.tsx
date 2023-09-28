@@ -54,7 +54,7 @@ const QuestionsScreen: React.FC = () => {
                 age,
                 height,
                 weight,
-                fastingOption: selectedOption, // Combine selected options into a string
+                fastingOption: selectedOption,
             };
 
             // Save user data in AsyncStorage
