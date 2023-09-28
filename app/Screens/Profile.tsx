@@ -57,7 +57,6 @@ const ProfileScreen: React.FC = () => {
         navigation.navigate("Diet plan(12-12)");
         break;
       default:
-        // Handle default case if needed
         break;
     }
   };
